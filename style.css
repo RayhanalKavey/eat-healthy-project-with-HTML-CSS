@@ -98,6 +98,14 @@ body {
   justify-content: center;
   gap: 12rem;
 }
+.grid-two-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  /* gap: 12rem; */
+}
 /* ******************************** */
 /* HERO SectioN */
 /* ******************************** */
@@ -124,12 +132,16 @@ body {
   padding: 2rem 0;
 }
 /* ******************************** */
-/* About me SECTION */
+/* About me SectioN */
 /* ******************************** */
 .about-me-section {
   background-repeat: no-repeat;
   background-size: auto;
   background-image: url(images/shapes/Frame\ 58.jpg);
+}
+.recipies-details {
+  grid-row: 1;
+  grid-column: 1;
 }
 .aboutme-image {
   width: 100%;
@@ -141,4 +153,18 @@ body {
   letter-spacing: -1px;
   font-weight: 600;
   margin-bottom: 2.4rem;
+}
+/* ******************************** */
+/*  RECIPIES SectioN */
+/* ******************************** */
+/* cart style */
+.cart-image {
+}
+.cart-heading {
+}
+.cart {
+}
+.cart-2 {
+}
+.cart-1 {
 }
