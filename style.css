@@ -43,7 +43,7 @@ Medium:
 
 */
 
-/* GENERAL */
+/* GENERAL SectioN */
 html {
   font-size: 62.5%;
 }
@@ -89,44 +89,56 @@ body {
   margin: 0 auto;
   padding: 0 4.8rem;
   max-width: 130rem;
+  margin-bottom: 6.4rem;
 }
-
-/* ******************************** */
-/* HERO SECTION */
-/* ******************************** */
-
-.hero-section {
-  /* background-color: rgb(255, 163, 127); */
-}
-.hero {
+.grid-one-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: 1fr; */
   align-items: center;
   justify-content: center;
   gap: 12rem;
-  /* background-color: aquamarine; */
 }
-.hero-details {
-  /* background-color: rgb(255, 127, 204); */
+/* ******************************** */
+/* HERO SectioN */
+/* ******************************** */
+
+.hero-section {
+  /* background-image: url(images/food/Project\Cover2.png); */
 }
 .highlighter {
   color: #fba24f;
   -webkit-text-stroke: 2px #575757;
-  /* text-shadow: 1px 1px black; */
 }
 .section-description {
   color: #828282;
 }
 .image-box-hero {
-  background-repeat: no-repeat;
   background-size: 85%;
+  background-repeat: no-repeat;
   background-image: url(images/shapes/Group\ 8450.png);
-  /* background-color: #e8c09a; */
 }
 .hero-image {
   width: 90%;
-  margin: 2.4rem;
-  border-radius: 30%;
-  /* border: 2px solid #fba24f; */
+  margin: 0 2.4rem;
+  border-radius: 50px;
+  padding: 2rem 0;
+}
+/* ******************************** */
+/* About me SECTION */
+/* ******************************** */
+.about-me-section {
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: url(images/shapes/Frame\ 58.jpg);
+}
+.aboutme-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+.secondary-heading {
+  font-size: 3.2rem;
+  letter-spacing: -1px;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
 }
