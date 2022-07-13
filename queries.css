@@ -46,5 +46,68 @@
   html {
     font-size: 50%;
   }
+  .container {
+    max-width: 130rem;
+  }
 }
-/*smaller phone(300-600) =  */
+/*smaller phone(300-600) = 752 */
+@media (max-width: 47em) {
+  .recipies {
+    grid-template-columns: 1fr;
+  }
+  .container {
+    padding: 0 5.8rem;
+  }
+  .cart {
+    width: 64%;
+    /* padding: 3.2rem;
+    margin: 4.8rem 0;
+    border-radius: 30px;
+    box-shadow: 0 1.2rem 2.6rem #575757; */
+  }
+  .recipies {
+    row-gap: 0rem;
+  }
+  .container {
+    padding: 0 3.2rem;
+    margin-bottom: 5.2rem;
+  }
+  .grid-one-row {
+    column-gap: 3.2rem;
+  }
+  .cart {
+    padding: 3.4rem 3.4rem 0 3.4rem;
+  }
+  .grid-three-row {
+    column-gap: 2rem;
+  }
+}
+/* 592 */
+@media (max-width: 37em) {
+  .cart {
+    width: 76%;
+    /* padding: 3.2rem;
+    margin: 4.8rem 0;
+    border-radius: 30px;
+    box-shadow: 0 1.2rem 2.6rem #575757; */
+  }
+  .grid-one-row {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 4rem;
+    margin-bottom: 8rem;
+  }
+  .aboutus {
+    padding: 0 3.2rem 3.2rem 3.2rem;
+    /* padding-bottom:6rem; */
+  }
+  .image-box-aboutus {
+    padding: 3.2rem;
+  }
+  .aboutus-details .section-description,
+  .hero-details .section-description {
+    padding: 0 8rem;
+  }
+}
