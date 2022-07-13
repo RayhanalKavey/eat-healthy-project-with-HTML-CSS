@@ -52,6 +52,9 @@
 }
 /*smaller phone(300-600) = 752 */
 @media (max-width: 47em) {
+  .Primary-heading {
+    padding-top: 2.4rem;
+  }
   .recipies {
     grid-template-columns: 1fr;
   }
