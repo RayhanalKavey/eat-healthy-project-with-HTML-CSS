@@ -101,7 +101,6 @@ body {
 .grid-two-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   align-items: center;
   justify-content: center;
   /* gap: 12rem; */
@@ -238,7 +237,7 @@ body {
   color: #fba24f;
 }
 .footer-heading {
-  font-size: 2.4git rem;
+  font-size: 2.4rem;
   margin-bottom: 2.4rem;
 }
 .footer-description {
