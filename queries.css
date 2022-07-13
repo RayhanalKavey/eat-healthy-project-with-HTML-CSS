@@ -1,0 +1,50 @@
+/* 1em=16px */
+/* 1248px/16px=78em */
+/* landscape tablets(1200) = 1248 */
+@media (max-width: 78em) {
+  /* (9px/16px)*100=56.25% */
+  html {
+    font-size: 56.25%;
+  }
+  .container {
+    max-width: 120rem;
+  }
+}
+/* tablets(900-1100) = 1072 */
+@media (max-width: 67em) {
+  .Primary-heading {
+    font-size: 4.4rem;
+  }
+  .cart {
+    padding: 2.4rem;
+  }
+  .recipies {
+    column-gap: 2.4rem;
+  }
+  .grid-one-row {
+    column-gap: 9.6rem;
+  }
+}
+
+/*smaller tablets(600-900) = 960 */
+@media (max-width: 60em) {
+  .Primary-heading {
+    font-size: 3.6em;
+  }
+  .secondary-heading {
+    font-size: 2.4rem;
+  }
+  .cart-heading {
+    font-size: 1.9rem;
+  }
+  .grid-one-row {
+    column-gap: 6.4rem;
+  }
+  .tertiary-heading {
+    font-size: 2.4rem;
+  }
+  html {
+    font-size: 50%;
+  }
+}
+/*smaller phone(300-600) =  */
