@@ -1,0 +1,114 @@
+/*
+///////////  |1| TYPOGRAPHY SYSTEM : Rubik
+Font Sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86/ 98
+|7| WHITE SPACE:
+Spacing System (px):
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+-Font Weights:
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+-Line heights:
+Default: 
+small:
+medium:
+large:
+p tag default:
+
+
+-Letter spacing
+
+///////////  |2| COLORS:
+////Primary-color: #FBA24F #FF1E1E #e5e5e5
+ -(Darker version) Tints:
+ -(Lighter version) Shades:
+ -Accents:
+ -Greys:  #575757 secondary #828282
+ #6F6F6F(Lightest grey allowed on #fdf2e9)
+ #767676(Lightest grey allowed on #fff)
+
+///////////  |3| IMAGE:
+
+--- 04 ICON
+
+--- 05 SHADOWS
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);(If the project is really big)
+--- 06 BORDER-RADIUS big(30px) small(28px) 20px
+Default: 
+Medium:
+
+*/
+
+/* GENERAL SectioN */
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2px;
+  line-height: 1;
+  font-weight: 400;
+  color: #575757;
+  background-color: #e5e5e5;
+}
+.section-description {
+  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+.Primary-heading {
+  font-size: 5.2rem;
+  text-shadow: 2px 2px 2.5px #828282;
+  letter-spacing: -3px;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 16px 26px;
+  background-color: #fba24f;
+  background-image: linear-gradient(to right, #fba24f, #ff1e1e);
+  border-radius: 2.6rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #e5e5e5;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 4.8rem;
+  max-width: 130rem;
+  margin-bottom: 6.4rem;
+}
+.grid-one-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 12rem;
+}
+.grid-two-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  /* gap: 12rem; */
+}
+.grid-three-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  /* gap: 12rem; */
+}
