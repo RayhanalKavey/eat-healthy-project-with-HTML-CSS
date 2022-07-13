@@ -37,7 +37,7 @@ p tag default:
 
 --- 05 SHADOWS
 box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);(If the project is really big)
---- 06 BORDER-RADIUS big(50px) small(30px)
+--- 06 BORDER-RADIUS big(30px) small(28px) 20px
 Default: 
 Medium:
 
@@ -101,7 +101,14 @@ body {
 .grid-two-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  /* gap: 12rem; */
+}
+.grid-three-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
   /* gap: 12rem; */
@@ -151,7 +158,7 @@ body {
 .aboutus-image {
   width: 100%;
   height: auto;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 .secondary-heading {
   font-size: 3.2rem;
@@ -172,7 +179,7 @@ body {
 .cart-image {
   width: 100%;
   height: 30rem;
-  border-radius: 30px;
+  border-radius: 28px;
   margin-bottom: 4.8rem;
 }
 .cart-heading {
@@ -187,9 +194,30 @@ body {
   width: 100%;
   padding: 3.2rem;
   margin: 4.8rem 0;
-  border-radius: 50px;
+  border-radius: 30px;
   box-shadow: 0 1.2rem 2.6rem #575757;
 }
 /* ******************************** */
 /*  CUSTOMER REACH SectioN */
 /* ******************************** */
+.subscription {
+  justify-self: center;
+}
+.customer-reach {
+  padding: 4.4rem 4.4rem;
+  border-radius: 20px;
+}
+.shadow {
+  box-shadow: 0 1.2rem 2.6rem #575757;
+}
+.tertiary-heading {
+  font-size: 3rem;
+  letter-spacing: -1px;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+  color: #000000;
+}
+.customer-reach-description {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
