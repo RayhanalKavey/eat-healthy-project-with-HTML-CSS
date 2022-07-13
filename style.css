@@ -37,7 +37,7 @@ p tag default:
 
 --- 05 SHADOWS
 box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);(If the project is really big)
---- 06 BORDER-RADIUS
+--- 06 BORDER-RADIUS big(50px) small(30px)
 Default: 
 Medium:
 
@@ -132,18 +132,23 @@ body {
   padding: 2rem 0;
 }
 /* ******************************** */
-/* About me SectioN */
+/* About Us SectioN */
 /* ******************************** */
-.about-me-section {
+.about-us-section {
+  /* border-radius: 50px; */
   background-repeat: no-repeat;
   background-size: auto;
   background-image: url(images/shapes/Frame\ 58.jpg);
 }
+.recipies {
+  column-gap: 3.2rem;
+}
 .recipies-details {
   grid-row: 1;
-  grid-column: 1;
+  grid-column: 1/-1;
+  text-align: center;
 }
-.aboutme-image {
+.aboutus-image {
   width: 100%;
   height: auto;
   border-radius: 50px;
@@ -158,13 +163,31 @@ body {
 /*  RECIPIES SectioN */
 /* ******************************** */
 /* cart style */
+.recipies {
+  column-gap: 1rem;
+}
+.recipies-details {
+  justify-self: center;
+  max-width: 60rem;
+}
 .cart-image {
+  width: 100%;
+  height: 30rem;
+  border-radius: 30px;
+  margin-bottom: 4.8rem;
 }
 .cart-heading {
+  font-size: 2.2rem;
+  letter-spacing: -1px;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
 }
 .cart {
-}
-.cart-2 {
-}
-.cart-1 {
+  justify-self: center;
+  max-width: 55rem;
+  padding: 3.2rem;
+  margin: 4.8rem 2.4rem;
+  border-radius: 50px;
+  box-shadow: 0 1.2rem 2.6rem #575757;
+  /* background-color: ; */
 }
